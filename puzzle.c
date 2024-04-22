@@ -2,10 +2,10 @@
 
 Square *** setUpPuzzle(int ** puzzle)
 {
-    Square *** sudoku
+    Square *** sudoku;
     int i, j;
 
-    sudoku = malloc(sizeof(Square**)*9);
+    sudoku = (Square***)malloc(sizeof(Square**)*9);
 
 // Loop through rows
   for (i=0; i<9;i++)

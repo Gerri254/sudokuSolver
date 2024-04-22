@@ -5,7 +5,7 @@ char POSSIBLE = 0x1FF;
 
 typedef struct Box
 {
-    struct Box *next;
+    struct Box * next;
 } Box;
 
 
@@ -25,4 +25,5 @@ typedef  struct Square
 
 int ** createPuzzle();
 void printPuzzle(int ** puzzle);
+Square *** setUpPuzzle(int ** puzzle);
 
